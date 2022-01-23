@@ -50,8 +50,8 @@
           <li><a href="#analysis">Analysis</a></li>
           <li class="menu-has-children"><a href="#machinelearning">Machine Learning</a>
             <ul>
-              <li><a href="#rfm">Relative Frequency Model</a></li>
-              <li><a href="#nbc">Naive Base Classifier</a></li>
+              <li><a href="#ml">Description</a></li>
+              <li><a href="Segment_1_ML_Mockup_Ben_modified.html">Code</a></li>
             </ul>
           </li>
         </ul>
@@ -111,7 +111,7 @@
 
 
     <!--==========================
-      Project Section
+      Overview Section
     ============================-->
     <section id="overview">
       <div class="container">
@@ -201,39 +201,41 @@
   			</div-->
 		<div class="row counters">
 
-          <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <h4 class="title"> <img src="img/yelp-icon.png" style="height: 32px"><b> Dataset used: Yelp Reviewer Dataset </b></h4>		
-            <p class="description"> Compiles information on 11 metropolitan areas: Edinburgh (UK), Stuttgart (Germany), Montreal (Canada), Toronto (Canada), Pittsburgh, <b>Charlotte</b>, Champaign-Urbana, Phoenix, Las Vegas, Madison, and Cleveland.</p>
-            <h4 class="title"> <img src="img/yelp-icon.png" style="height: 32px"> <b> NRC Emotion Lexicon</b></h4>
-            <p class="description"> List of words and their associations with eight emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). </p>
-            <h4 class="title"> <img src="img/yelp-icon.png" style="height: 32px"> <b> Extra variables</b></h4>
-            <p class="description"> Yelp allows readers of reviews to tag reviews with 3 attributes: “cool”, “useful”, and “funny”
-These were included to gain additional context as to how the reviews were interpreted. </p>
+          <div class="col-lg-7 col-md-5 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <h4 class="title"> <img src="img/kaggle.png" style="height: 35px"><b> Dataset used: Kaggle Dataset</h4>		
+            <p class="description"> We used kaggle consolidated dataset for Ontario Sunshine List 1996 to 2019 and appended the 2020 sunshine list to it.</p>
+            <h4 class="title"> <img src="img/stats_canada.jpg" style="height: 35px"> <b> Stats Canada Wages</h4>
+            <p class="description"> We used employee wages by occupation annualy to compare public sector wages to private sector wages. </p>
+            <h4 class="title"> <img src="img/stats_canada.jpg" style="height: 35px"> <b> Stats Canada Inflation</h4>
+            <p class="description"> We used Consume Price Index (CPI) statistics to compare if consumer inflation over the years has been taken into account in the sunshine list wages. </p>
 			<img src="img/yelp-buttons.png" style="height: 32px">
 		  </div>
 			<div class="dataset-img col-lg-6 col-6 text-center">
-				<img src="img/yelp-dataset.png" alt="" class="img-fluid">
-			    <span data-toggle="counter-up">6,000,000</span><p><b>Yelp Reviews Analyzed</b></p>
+				<img src="img/icon.png" alt="" class="img-fluid">
+			    <span data-toggle="counter-up">200,000</span><p><b>Number of Ontarian employees on the sunshine list in 2020 </b></p>
   				</div>			
       
 	  </div>
     </section><!-- #dataset -->
 
     <!--==========================
-      Regression Section
+      Machine Learning Section
     ============================--> 
 
-  <section id="regression">
+  <section id="ml">
       <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3>MultiLinear Regression</h3>
+          <h3>Machine Learning Objective</h3>
+          <header class="section-header wow fadeInUp">
+            <p>Machine learning tools will be used to predict gender and potentially age for the list of names in the sunshine list. This process is essential for the analysis and outputs/recommendations.</p>
+       </header>
         </header>
 
         <div class="row">
 
           <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
-            <div><img src="img/regression.png" class="img-fluid" style="height: 400px"></div>
+            <div><img src="img/ML.PNG" class="img-fluid" style="height: 400px"></div>
           </div>
           <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><img src="img/reg-models.png" class="img-fluid"></i></div>
@@ -241,13 +243,13 @@ These were included to gain additional context as to how the reviews were interp
         </div>
 
       </div>
-    </section><!-- #regression -->
+    </section><!-- #rfm -->
 
- <section id="neural">
+ <section id="nbc">
       <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3>Decision Tree</h3>
+          <h3>Naive Base Classifier</h3>
         </header>
 
  <div class="row">
