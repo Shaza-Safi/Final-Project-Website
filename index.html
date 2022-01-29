@@ -47,11 +47,17 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
 		  <li><a href="#overview">Overview</a></li>
           <li><a href="#dataset">Dataset</a></li>
+          <li class="menu-has-children"><a href="#ETL">ETL Process</a>
+            <ul>
+              <li><a href="SunshineList_DataCleansing.html">Sunshine List Cleansing</a></li>
+              <li><a href="StatsCan_Ontario_cleansing.html">Stats Canada Cleansing</a></li>
+            </ul>
+          </li>
           <li><a href="#analysis">Analysis</a></li>
           <li class="menu-has-children"><a href="#machinelearning">Machine Learning</a>
             <ul>
               <li><a href="#ml">Description</a></li>
-              <li><a href="Segment_1_ML_Mockup_Ben_modified.html">Code</a></li>
+              <li><a href="Data_Bootcamp_Capstone_Project_Machine_Learning_Model.html">Code</a></li>
             </ul>
           </li>
         </ul>
@@ -181,23 +187,18 @@
 			<ul> - Average Star Rating </ul> <ul> - Reactions (Useful, Funny, Cool) </ul-->
         </header>	
         <!--div class="row counters">
-
-
           <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">4,210</span>
             <p>Restaurants</p>
   				</div>
-
           <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">6,000,000</span>
             <p>Yelp Reviews</p>
   				</div>
-
           <div class="col-lg-4 col-12 text-center">
             <span data-toggle="counter-up">5</span>
             <p>Years of Historical Data</p>
   				</div>
-
   			</div-->
 		<div class="row counters">
 
@@ -212,7 +213,7 @@
 		  </div>
 			<div class="dataset-img col-lg-6 col-6 text-center">
 				<img src="img/icon.png" alt="" class="img-fluid">
-			    <span data-toggle="counter-up">200,000</span><p><b>Number of Ontarian employees on the sunshine list in 2020 </b></p>
+			    <span data-toggle="counter-up">205,000</span><p><b>Number of Ontarian employees on the sunshine list in 2020 </b></p>
   				</div>			
       
 	  </div>
@@ -228,45 +229,16 @@
         <header class="section-header wow fadeInUp">
           <h3>Machine Learning Objective</h3>
           <header class="section-header wow fadeInUp">
-            <p>Machine learning tools will be used to predict gender and potentially age for the list of names in the sunshine list. This process is essential for the analysis and outputs/recommendations.</p>
+            <p>Machine learning tools will be used to predict gender for the list of names in the sunshine list. This process is essential for the analysis and outputs/recommendations.</p>
+       </header>
+       <h3>Overview of types of machine learning used</h3>
+          <header class="section-header wow fadeInUp">
+            <p>Our model has used two types of machine learning: Relative frequency classifier and Natural Language Toolkit (NLTK), a Python library that used supervised classification to determine a gender class (output) for each input (given name)</p>
        </header>
         </header>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
-            <div><img src="img/ML.PNG" class="img-fluid" style="height: 400px"></div>
-          </div>
-          <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><img src="img/reg-models.png" class="img-fluid"></i></div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #rfm -->
-
- <section id="nbc">
-      <div class="container">
-
-        <header class="section-header wow fadeInUp">
-          <h3>Naive Base Classifier</h3>
-        </header>
+    </section><!-- #ml -->
 
  <div class="row">
-
-          <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
-            <div><img src="img/tree-final.png" class="img-fluid" ></div>
-		  </div>
-		  <div class="col-lg-6 col-md-12 box wow bounceInUp" data-wow-duration="1.4s">
- 			<div class="icon"><img src="img/stars-tree.png" class="img-fluid"></i></div>           
-			<div class="icon"><img src="img/features.png" class="img-fluid"></i></div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #neural -->	
-
-
 
   </main>
 
