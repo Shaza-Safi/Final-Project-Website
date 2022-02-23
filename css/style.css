@@ -60,6 +60,9 @@ body {
       bottom: 15px;
     }
   }
+  .team img{
+    border-radius: 10%;
+  }
   
   /*--------------------------------------------------------------
   # Header
@@ -260,6 +263,10 @@ body {
   #intro .btn-get-started:hover {
     background: #fff;
     color: #18d26e;
+  }
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
   
   /*--------------------------------------------------------------
@@ -555,7 +562,18 @@ body {
     background: #f7f7f7;
   }
   
+  /* Team Section
+  --------------------------------*/
   
+  .div-1 {
+    background-color: #dddfde;
+    }
+  .div-2 {
+    background-color: #dddfde;
+  }
+
+
+
   /* Project Section
   --------------------------------*/
   #project {
